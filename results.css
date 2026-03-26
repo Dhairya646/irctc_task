@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+  margin: 0;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.results-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+/* Container */
+.train-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #ffffff, #f0f9ff);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.train-card:hover {
+  transform: scale(1.02);
+}
+
+.train-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0f172a;
+}
+
+.train-route {
+  text-align: center;
+}
+
+.train-route .time {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.train-action {
+  text-align: right;
+}
+
+.train-action div {
+  font-size: 18px;
+  font-weight: bold;
+  color: #16a34a;
+}
+
+.train-action button {
+  margin-top: 8px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(90deg, #06b6d4, #14b8a6);
+  color: white;
+  cursor: pointer;
+}

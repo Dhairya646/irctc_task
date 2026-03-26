@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Auth Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <img src="pictures/logo.png" class="logo">
+    <div class="navbuttons">
+    <div class="login">
+        <p>Login</p>
+    </div>
+    <div class="signup"> 
+        <p>Sign Up</p>
+    </div>
+    </div>
+</header>
+<main>
+    <div class="hero">
+  <div class="hero-content">
+    <h1>Book Your <span>Train Tickets</span></h1>
+    <p>Fast • Easy • Secure Booking</p>
+  </div>
+</div>
+<div class="booking">
+<div class="c1">
+    <div class="search-box">
+    <h2>Book Train Tickets</h2>
+
+    <div class="form-row">
+<div class="dropdowncontainer">
+<select id="fromstation">
+  <option value="">Loading stations...</option>
+</select>
+<select id="tostation">
+  <option value="">Loading stations...</option>
+</select>
+</div>       
+
+    </div>
+
+    <div class="form-row">
+        <input type="date" id ="date">
+
+        <select>
+            <option>All Classes</option>
+            <option>Sleeper</option>
+            <option>AC 3 Tier</option>
+            <option>AC 2 Tier</option>
+        </select>
+    </div>
+
+    <button class="search-btn"id="search-btn">Search Trains</button>
+    </div>
+</div>
+     <h2>Special Offers</h2>
+     <div class="offers-container">
+
+    <div class="offer-card">
+        <div class="icon">🎉</div>
+        <h3>20% OFF</h3>
+        <p class="desc">Get discount on your first train booking across all routes.</p>
+
+        <div class="info">
+            <span class="code">FIRST20</span>
+            <span class="valid">Till 30 Apr</span>
+        </div>
+
+        <button>Apply Offer</button>
+    </div>
+
+    <div class="offer-card">
+        <div class="icon">💳</div>
+        <h3>₹100 Cashback</h3>
+        <p class="desc">Pay using UPI and get instant cashback on tickets.</p>
+
+        <div class="info">
+            <span class="code">UPI100</span>
+            <span class="valid">Min ₹500</span>
+        </div>
+
+        <button>Apply Offer</button>
+    </div>
+
+    <div class="offer-card">
+        <div class="icon">🎓</div>
+        <h3>Student Discount</h3>
+        <p class="desc">Special fares for verified students across India.</p>
+
+        <div class="info">
+            <span class="code">ID REQUIRED</span>
+            <span class="valid">All Routes</span>
+        </div>
+
+        <button>View Details</button>
+    </div>
+
+</div>
+</div>    
+</main>
+<footer>
+
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
